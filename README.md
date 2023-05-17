@@ -48,3 +48,4 @@ We will be primarily evaluating based on how well the search works for users. A 
 ## Future Improvements
 - Add functionality to search for multiple words
 - Add functionality to search for mis-spellings
+- Bread crumbs for search terms
