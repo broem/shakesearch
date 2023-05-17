@@ -28,3 +28,23 @@ We will be primarily evaluating based on how well the search works for users. A 
 1. Fork this repository and send us a link to your fork after pushing your changes.
 2. Render (render.com) hosting, the application deploys cleanly from a public url.
 3. In your submission, share with us what changes you made and how you would prioritize changes if you had more time.
+
+
+## Changes Made
+
+### Frontend
+- Made the UI a bit cleaner and more modern
+- Added a suggestion dropdown for search terms
+- Added pagination for search results
+- Cleaned up the search results to be more readable
+- Added highlighting to search terms in results
+
+### Backend
+- Added a search index to speed up search
+- Added suggestions to the search index
+- Preprossed the text to retrieve work titles
+
+
+## Future Improvements
+- Add functionality to search for multiple words
+- Add functionality to search for mis-spellings
