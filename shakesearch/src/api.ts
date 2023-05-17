@@ -1,4 +1,4 @@
-const host = process.env.REACT_APP_API_HOST || 'https://bleach-shakesearch.onrender.com/';
+const host = process.env.REACT_APP_API_HOST || 'https://bleach-pulley-shakesearch.onrender.com/';
 
 const search = async (query: string, page: number = 1, selectedWorks: string[] = []): Promise<any> => {
   try {
@@ -43,6 +43,7 @@ export const getWorks = async (): Promise<any> => {
   }
 };
   
+  // eslint-disable-next-line import/no-anonymous-default-export
   export default {
     search,
     suggest,
