@@ -1,6 +1,4 @@
-import { env } from "process";
-
-const host = env.REACT_APP_API_HOST || 'http://localhost:3001/';
+const host = process.env.REACT_APP_API_HOST || 'http://localhost:3001/';
 
 const search = async (query: string, page: number = 1, selectedWorks: string[] = []): Promise<any> => {
     const worksQuery = selectedWorks.length > 0 ? `&works=${selectedWorks.join(',')}` : '';
